@@ -1,0 +1,13 @@
+prefix=C:/Users/hp/Downloads/L.U.M.I.S/Car-Price-Prediction-/car/Library
+exec_prefix=C:/Users/hp/Downloads/L.U.M.I.S/Car-Price-Prediction-/car/Library
+libdir=C:/Users/hp/Downloads/L.U.M.I.S/Car-Price-Prediction-/car/Library/lib
+sharedlibdir=C:/Users/hp/Downloads/L.U.M.I.S/Car-Price-Prediction-/car/Library/lib
+includedir=C:/Users/hp/Downloads/L.U.M.I.S/Car-Price-Prediction-/car/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
